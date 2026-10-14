@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p4-tutorial-css</title>
+    
+    <style>
+        :root{
+            --primary-color: rgb(240, 233, 213);
+            --second-color:rgb(242, 220, 91);
+            --third-color: rgb(43, 100, 173);
+            --fourth-color:  rgb(233, 87, 47);
+            --neutral-b-color: black;
+            --neutral-w-color: white;
+
+        body {
+            text-align: center;
+            font-size: 40px;
+            background-color: var(--primary-color);
+        }
+        }
+        h1{
+            color: var(--neutral-w-color);
+            font-size: 3em;
+            border: 15px solid var(--second-color);
+            width: 500px;
+            height: 5000px;
+            background-color:var(--third-color);
+            padding: 50px 0;
+            margin: 100px 0 200px 300px;
+        }
+        p:nth-child(2){
+            font-size: 1em;
+            background-color: var(--fourth-color);
+            color: var(--neutral-b-color)
+        }
+
+        p:nth-child(3){
+            font-size: 1em;
+            background-color: var(--second-color);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>p4-tutorial</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum sit non praesentium nesciunt, ut minima iste, deserunt consequuntur, commodi repellendus eos asperiores vitae perferendis deleniti officiis temporibus facere ipsum omnis!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum sit non praesentium nesciunt, ut minima iste, deserunt consequuntur, commodi repellendus eos asperiores vitae perferendis deleniti officiis temporibus facere ipsum omnis!</p>
+    </div>
+</body>
+</html>
