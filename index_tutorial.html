@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>p4-cartel-css</title>
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <title>p4-tutorial-css</title>
+    
     <style>
         :root{
             --primary-color: rgb(240, 233, 213);
@@ -16,53 +13,43 @@
             --fourth-color:  rgb(233, 87, 47);
             --neutral-b-color: black;
             --neutral-w-color: white;
-        }
 
         body {
             text-align: center;
-            font-size: 16px; 
-            font-family: 'Montserrat', sans-serif;
+            font-size: 40px;
             background-color: var(--primary-color);
-            margin: 0;
-            padding: 2.5em 1.25em; 
-            display: flex;
-            flex-direction: column;
-            align-items: center; 
         }
-          
-        .contenedor-cabecera {
-            display: inline-flex;
-            flex-direction: column;
-            align-items: flex-start; 
-            position: relative;
-            margin-bottom: 1.25em; 
         }
-
         h1{
-            font-size: 10.625em; 
-            color: var(--neutral-b-color);
-            margin: 0;
-            padding: 0;
-            line-height: 0.8;
-            font-weight: 900;   
-            letter-spacing: 0.05em;
+            color: var(--neutral-w-color);
+            font-size: 3em;
+            border: 15px solid var(--second-color);
+            width: 500px;
+            height: 5000px;
+            background-color:var(--third-color);
+            padding: 50px 0;
+            margin: 100px 0 200px 300px;
+        }
+        p:nth-child(2){
+            font-size: 1em;
+            background-color: var(--fourth-color);
+            color: var(--neutral-b-color)
         }
 
-        h2{
-            font-size: 0.8125em; 
-            color: var(--neutral-b-color);
-            margin: 0; 
-            padding: 0;
-            font-weight: 700;   
-            letter-spacing: 0.0625em;
-            margin-top: 0.625em; 
+        p:nth-child(3){
+            font-size: 1em;
+            background-color: var(--second-color);
         }
-
-        h3{
-            text-align: center;
-            font-size: 1.75em; 
-            color: var(--neutral-b-color);
-            font-weight: 800;   
+    </style>
+</head>
+<body>
+    <div>
+        <h1>p4-tutorial</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum sit non praesentium nesciunt, ut minima iste, deserunt consequuntur, commodi repellendus eos asperiores vitae perferendis deleniti officiis temporibus facere ipsum omnis!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum sit non praesentium nesciunt, ut minima iste, deserunt consequuntur, commodi repellendus eos asperiores vitae perferendis deleniti officiis temporibus facere ipsum omnis!</p>
+    </div>
+</body>
+</html>            font-weight: 800;   
             letter-spacing: 0.125em; 
             margin: 0em 0em 1.5em 0em; 
             width: 100%;
